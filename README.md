@@ -12,17 +12,17 @@ How consistent is my win rate across time and categories?
 ## Dataset Used
 I exported my sports betting data using Pikkit, an app that tracks all of my bets. The dataset consists of 1,218 bets placed between December 2023 and April 2025. Each row captures information including:
 
-Bet amount
+- Bet amount
 
-Profit or loss
+- Profit or loss
 
-Sportsbook
+- Sportsbook
 
-Sport
+- Sport
 
-Time and date placed
+- Time and date placed
 
-Outcome (win/loss)
+-Outcome (win/loss)
 
 ## Tools & Techniques
 Power BI: Built a comprehensive interactive dashboard with slicers and custom visualizations.
@@ -35,6 +35,9 @@ Excel: Cleaned and prepared the dataset using IF, VLOOKUP, XLOOKUP, and TEXT fun
 
 Data Cleaning: Normalized inconsistent text labels, converted time columns for hour-level analysis, and filtered out test entries.
 
+![Dashboard Preview](dashboard/sportsbettingdash.png)
+
+
 ## Key Insights
 My highest profit came from PrizePicks with over $1,000 gained.
 
@@ -42,4 +45,6 @@ Basketball bets accounted for ~62% of all wagers and showed a solid win rate.
 
 My best performance came from bets placed in March and April, and during evening hours.
 
-Identified that I lose the most on Chalkboard Fantasy, suggesting reconsideration of that platform.
+Identified that I lose the most on Chalkboard Fantasy, suggesting reconsideration of that platform and sticking to profitable platforms.
+
+🔐 Interactive dashboard available on request.
